@@ -35,7 +35,7 @@ export function DownloadReceiptButton({
             const link = document.createElement("a");
             link.href = url;
 
-            link.download = `ObeoRooms-Receipt-${transaction.transactionId}.pdf`;
+            link.download = `FeleTrip-Receipt-${transaction.transactionId}.pdf`;
 
             link.click();
 

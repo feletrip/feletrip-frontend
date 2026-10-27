@@ -19,15 +19,15 @@ export function PaymentReceiptHeader({ title, description, transactionId }: Paym
                 <div className="flex items-center gap-2.5 mb-5">
                     <Image
                         src="/logo.png"
-                        alt="ObeoRooms"
+                        alt="FeleTrip"
                         width={40}
                         height={40}
                         className="h-9 w-auto"
                         priority
                     />
                     <h1 className="text-2xl font-bold tracking-tight">
-                        <span className="text-primary">Obeo</span>
-                        <span className="text-foreground">Rooms</span>
+                        <span className="text-primary">Fele</span>
+                        <span className="text-foreground">Trip</span>
                     </h1>
                 </div>
 
@@ -40,7 +40,7 @@ export function PaymentReceiptHeader({ title, description, transactionId }: Paym
                 <div className="mt-4 space-y-1.5">
                     <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">{title}</h2>
                     <p className="mx-auto max-w-md text-sm leading-6 text-muted-foreground">{description}</p>
-                    <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary/80">Issued by ObeoRooms</p>
+                    <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary/80">Issued by FeleTrip</p>
                 </div>
 
                 {/* Receipt Number */}

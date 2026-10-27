@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: obeo-rooms-frontend
-    container_name: obeo-rooms-frontend
+    image: feletrip-frontend
+    container_name: feletrip-frontend
     restart: unless-stopped
     ports:
       - "3000:3000"
@@ -14,4 +14,4 @@ services:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
       # Add other frontend env variables here as needed:
-      # - NEXT_PUBLIC_API_URL=http://api.obeorooms.com
+      # - NEXT_PUBLIC_API_URL=http://api.feletrip.com

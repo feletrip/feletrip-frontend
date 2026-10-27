@@ -2,7 +2,7 @@ import { Text, View, Image } from "@react-pdf/renderer";
 import { Transaction } from "@/types/user/transactionHistory";
 import { formatTransactionDate } from "@/lib/transaction-utils";
 import { receiptStyles } from "./PaymentReceiptStyles";
-import { OBEO_LOGO_BASE64 } from "@/lib/obeo-logo-base64";
+import { FELETRIP_LOGO_BASE64 } from "@/lib/feletrip-logo-base64";
 
 interface PdfHeaderProps {
     transaction: Transaction;
@@ -15,11 +15,11 @@ export function PdfHeader({ transaction }: PdfHeaderProps) {
             {/* Brand + Receipt Title */}
             <View style={receiptStyles.headerTop}>
                 <View style={receiptStyles.brandWrapper}>
-                    <Image src={OBEO_LOGO_BASE64} style={receiptStyles.brandLogo} />
+                    <Image src={FELETRIP_LOGO_BASE64} style={receiptStyles.brandLogo} />
                     <View style={receiptStyles.brandTextGroup}>
                         <View style={receiptStyles.brandTitleRow}>
-                            <Text style={receiptStyles.brandNamePrimary}>Obeo</Text>
-                            <Text style={receiptStyles.brandNameSecondary}>Rooms</Text>
+                            <Text style={receiptStyles.brandNamePrimary}>Fele</Text>
+                            <Text style={receiptStyles.brandNameSecondary}>Trip</Text>
                         </View>
                         <Text style={receiptStyles.brandTagline}>
                             Find &amp; Book Hotels at the Best Prices

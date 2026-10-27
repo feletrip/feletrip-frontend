@@ -37,7 +37,7 @@ const Banner = () => {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="mb-2 text-2xl font-medium md:text-4xl"
               >
-                Welcome to <span className="font-bold">ObeoRooms!</span>
+                Welcome to <span className="font-bold">FeleTrip!</span>
               </motion.h1>
 
               <motion.p

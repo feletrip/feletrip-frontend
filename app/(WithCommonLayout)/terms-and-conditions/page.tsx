@@ -14,9 +14,9 @@ import { Button } from "@/components/ui/button";
 import { Motion } from "@/components/Reuseable/common/Framermotion";
 
 export const metadata = {
-  title: "Terms & Conditions | ObeoRooms",
+  title: "Terms & Conditions | FeleTrip",
   description:
-    "Read the terms and conditions governing the use of the ObeoRooms hotel booking platform, including reservations, payments, cancellations, and user responsibilities.",
+    "Read the terms and conditions governing the use of the FeleTrip hotel booking platform, including reservations, payments, cancellations, and user responsibilities.",
 };
 
 const TERMS_SECTIONS = [
@@ -26,7 +26,7 @@ const TERMS_SECTIONS = [
     icon: Layers,
     title: "Platform Services",
     description:
-      "ObeoRooms provides an online platform that allows users to search, compare, and book hotels from verified accommodation providers. We facilitate bookings but do not own or operate the listed hotels.",
+      "FeleTrip provides an online platform that allows users to search, compare, and book hotels from verified accommodation providers. We facilitate bookings but do not own or operate the listed hotels.",
     extraText:
       "Each hotel is solely responsible for the accuracy of its property details, amenities, pricing, and services.",
   },
@@ -72,7 +72,7 @@ const TERMS_SECTIONS = [
     icon: XOctagon,
     title: "Limitation of Liability",
     description:
-      "ObeoRooms is not responsible for issues arising from hotel operations, including room availability, service quality, property conditions, guest behavior, or unforeseen circumstances beyond our control.",
+      "FeleTrip is not responsible for issues arising from hotel operations, including room availability, service quality, property conditions, guest behavior, or unforeseen circumstances beyond our control.",
   },
   {
     id: "06",
@@ -158,7 +158,7 @@ export default function TermsAndConditions() {
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed font-light">
             Welcome to{" "}
             <span className="font-semibold text-primary underline underline-offset-4 decoration-primary/20">
-              ObeoRooms.Com
+              FeleTrip.com
             </span>
             . By interacting with our platform, you accept compliance parameters
             mapped within this agreement ecosystem. We function as a verified
@@ -260,7 +260,7 @@ export default function TermsAndConditions() {
               </div>
               <Button size="lg" asChild>
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@ObeoRooms.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@FeleTrip.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="shadow-lg shadow-primary/10 hover:shadow-primary/20 hover:scale-[1.03] active:scale-[0.97] transition-all duration-300 group/btn relative z-10"

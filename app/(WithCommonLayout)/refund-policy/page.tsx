@@ -13,9 +13,9 @@ import { Button } from "@/components/ui/button";
 import { Motion } from "@/components/Reuseable/common/Framermotion";
 
 export const metadata = {
-  title: "Return & Refund Policy | ObeoRooms",
+  title: "Return & Refund Policy | FeleTrip",
   description:
-    "Learn about ObeoRooms's cancellation, refund, booking modification, and payment policies for hotel reservations.",
+    "Learn about FeleTrip's cancellation, refund, booking modification, and payment policies for hotel reservations.",
 };
 
 const REFUND_SECTIONS = [
@@ -36,7 +36,7 @@ const REFUND_SECTIONS = [
     icon: CreditCard,
     title: "Refund Processing",
     description:
-      "If your booking is eligible for a refund, ObeoRooms will process the refund after receiving confirmation from the hotel according to its cancellation policy.",
+      "If your booking is eligible for a refund, FeleTrip will process the refund after receiving confirmation from the hotel according to its cancellation policy.",
 
     subGrid: [
       {
@@ -76,7 +76,7 @@ const REFUND_SECTIONS = [
     icon: Scale,
     title: "Policy Compliance",
     description:
-      "ObeoRooms is committed to providing a transparent booking experience. All cancellation and refund requests are handled in accordance with the individual hotel's policies and applicable consumer protection laws.",
+      "FeleTrip is committed to providing a transparent booking experience. All cancellation and refund requests are handled in accordance with the individual hotel's policies and applicable consumer protection laws.",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function ReturnRefundPolicy() {
                 </span>
                 . This policy explains how cancellations, refunds, payment
                 reversals, and booking modifications are managed when you
-                reserve hotels through ObeoRooms.
+                reserve hotels through FeleTrip.
               </p>
 
               {/* Native HTML Smooth-Scroll Sidebar Dock */}
@@ -156,7 +156,7 @@ export default function ReturnRefundPolicy() {
             This Return & Refund Policy explains how cancellations, booking
             modifications, and eligible refunds are handled on{" "}
             <span className="font-semibold text-primary underline underline-offset-4 decoration-primary/20">
-              ObeoRooms.Com
+              FeleTrip.com
             </span>
             . By completing a hotel reservation through our platform, you agree
             to the cancellation and refund policy applicable to your selected
@@ -258,7 +258,7 @@ export default function ReturnRefundPolicy() {
               </div>
               <Button size="lg" asChild>
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@ObeoRooms.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@FeleTrip.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="shadow-lg shadow-primary/10 hover:shadow-primary/20 hover:scale-[1.03] active:scale-[0.97] transition-all duration-300 group/btn relative z-10"

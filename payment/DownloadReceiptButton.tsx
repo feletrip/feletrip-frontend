@@ -59,7 +59,7 @@ export function DownloadReceiptButton({ bookingId, booking }: DownloadReceiptBut
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = `ObeoRooms-Receipt-${code}.pdf`;
+      link.download = `FeleTrip-Receipt-${code}.pdf`;
       link.click();
       URL.revokeObjectURL(url);
 

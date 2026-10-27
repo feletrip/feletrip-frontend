@@ -60,7 +60,7 @@ import { toast } from "@/components/Reuseable/common/toast";
 import Image from "next/image";
 import VendorReg from "@/components/auth/Form/VendorReg";
 import { useChatStore } from "@/lib/chat.store";
-import ObeoRoomsLogo from "@/components/shared/ObeoRoomLogo";
+import FeleTripLogo from "@/components/shared/FeleTripLogo";
 
 interface MenuItem {
   title: string;
@@ -209,7 +209,7 @@ const DesktopMenu = ({
 }: any) => {
   return (
     <nav className="hidden items-center justify-between lg:flex">
-      <ObeoRoomsLogo />
+      <FeleTripLogo />
 
       <div className="flex items-center gap-6">
         <div className="relative flex items-center gap-6 bg-primary py-3 px-6 clip-path-custom before:content-[''] before:absolute before:top-0 before:-left-9.75 before:h-full before:w-10 before:bg-primary before:[clip-path:polygon(100%_0,100%_100%,0_100%)]">
@@ -278,7 +278,7 @@ const AuthButtons = ({
                 <SheetHeader>
                   {/* logo */}
                   <div className="relative w-20 h-20 aspect-square mx-auto mt-6">
-                    <Image src="/logo.png" alt="ObeoRooms" fill priority />
+                    <Image src="/logo.png" alt="FeleTrip" fill priority />
                   </div>
 
                   <SheetTitle asChild>
@@ -437,7 +437,7 @@ const AuthButtons = ({
                     <SheetHeader>
                       {/* logo */}
                       <div className="relative w-20 h-20 aspect-square mx-auto mt-6">
-                        <Image src="/logo.png" alt="ObeoRooms" fill priority />
+                        <Image src="/logo.png" alt="FeleTrip" fill priority />
                       </div>
 
                       <SheetTitle asChild>
@@ -731,7 +731,7 @@ const MobileMenu = ({
   return (
     <div className="block lg:hidden py-2">
       <div className="flex items-center justify-between">
-        <ObeoRoomsLogo />
+        <FeleTripLogo />
 
         <Sheet>
           <SheetTrigger asChild>
@@ -743,7 +743,7 @@ const MobileMenu = ({
           <SheetContent className="overflow-y-auto lg:hidden">
             <SheetHeader>
               <SheetTitle>
-                <ObeoRoomsLogo />
+                <FeleTripLogo />
               </SheetTitle>
             </SheetHeader>
 

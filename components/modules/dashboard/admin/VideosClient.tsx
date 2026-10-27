@@ -276,7 +276,7 @@ export default function VideosClient({
         }
 
         const baseUrl =
-          process.env.NEXT_PUBLIC_API_URL || "https://api.obeorooms.com/api/v1";
+          process.env.NEXT_PUBLIC_API_URL || "https://api.feletrip.com/api/v1";
         const endpoint = isEdit
           ? `${baseUrl}/admin/videos/${editingVideo.id}`
           : `${baseUrl}/admin/videos`;

@@ -45,7 +45,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cdn.ObeoRooms.com",
+        hostname: "cdn.FeleTrip.com",
       },
 
       // Optional: allow any HTTPS image (use carefully in production)

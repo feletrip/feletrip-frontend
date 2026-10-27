@@ -13,9 +13,9 @@ import { Button } from "@/components/ui/button";
 import { Motion } from "@/components/Reuseable/common/Framermotion";
 
 export const metadata = {
-  title: "Privacy Policy | ObeoRooms",
+  title: "Privacy Policy | FeleTrip",
   description:
-    "Learn how ObeoRooms collects, uses, protects, and handles your personal data when utilizing our online hotel booking platform.",
+    "Learn how FeleTrip collects, uses, protects, and handles your personal data when utilizing our online hotel booking platform.",
 };
 
 const PRIVACY_SECTIONS = [
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
                   July 19, 2026
                 </span>
                 . This Privacy Policy explains how we collect, use, protect, and
-                manage your personal information while you use the ObeoRooms
+                manage your personal information while you use the FeleTrip
                 platform.
               </p>
 
@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed font-light">
             This Privacy Policy explains how{" "}
             <span className="font-semibold text-primary underline underline-offset-4 decoration-primary/20">
-              ObeoRooms.Com
+              FeleTrip.com
             </span>{" "}
             collects, uses, stores, and protects your personal information when
             you use our hotel booking platform. By using our services, you agree
@@ -258,7 +258,7 @@ export default function PrivacyPolicy() {
               </div>
               <Button size="lg" asChild>
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@ObeoRooms.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support@FeleTrip.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="shadow-lg shadow-primary/10 hover:shadow-primary/20 hover:scale-[1.03] active:scale-[0.97] transition-all duration-300 group/btn relative z-10"

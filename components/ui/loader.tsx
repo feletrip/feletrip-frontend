@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function loading() {
-  const brandName = "ObeoRooms";
+  const brandName = "FeleTrip";
   const letters = brandName.split("");
 
   const containerVariants = {
@@ -59,7 +59,7 @@ export default function loading() {
         >
           <Image
             src="/logo.png"
-            alt="ObeoRooms"
+            alt="FeleTrip"
             width={80}
             height={80}
             priority

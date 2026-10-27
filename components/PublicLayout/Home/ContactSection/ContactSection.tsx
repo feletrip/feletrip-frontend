@@ -18,7 +18,7 @@ const contactInfo = {
   description:
     "If you have any questions or need assistance, feel free to reach out to us.",
   phones: ["+8801876987622", "+8801876987622"],
-  email: "support@ObeoRooms.com",
+  email: "support@FeleTrip.com",
   address: "House 514, Suite-A1, Road 07, Avenue-03, Mirpur DOHS, Dhaka-1216",
 };
 

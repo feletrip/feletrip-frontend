@@ -91,11 +91,11 @@ export function PaymentReceiptCard({ transaction }: PaymentReceiptCardProps) {
             <footer className="border-t bg-muted/30 px-8 py-5">
                 <div className="flex items-center justify-between">
                     <div>
-                        <p className="font-semibold">ObeoRooms</p>
-                        <p className="text-sm text-muted-foreground">Thank you for choosing ObeoRooms.</p>
+                        <p className="font-semibold">FeleTrip</p>
+                        <p className="text-sm text-muted-foreground">Thank you for choosing FeleTrip.</p>
                     </div>
                     <div className="text-right text-sm text-muted-foreground">
-                        support@obeorooms.com
+                        support@feletrip.com
                     </div>
                 </div>
             </footer>

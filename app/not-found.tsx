@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Home, ArrowLeft, Search, HelpCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ObeoRoomsLogo from "@/components/shared/ObeoRoomLogo";
+import FeleTripLogo from "@/components/shared/FeleTripLogo";
 import { Container } from "@/components/PublicLayout/Shared/Container";
 
 export default function NotFound() {
@@ -10,7 +10,7 @@ export default function NotFound() {
       <main className="min-h-screen w-full flex flex-col justify-between px-6 py-12 lg:px-24">
         {/* Top Branding / Header */}
         <div className="flex items-center justify-between">
-          <ObeoRoomsLogo titleClassname="hidden sm:block" />
+          <FeleTripLogo titleClassname="hidden sm:block" />
           <span className="text-xs font-semibold px-3 py-1 rounded-full bg-destructive/10 text-destructive border border-destructive/20">
             Error Code: 404
           </span>
@@ -101,7 +101,7 @@ export default function NotFound() {
 
         {/* Footer Info */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-border/40 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} ObeoRooms. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} FeleTrip. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <Link
               href="/privacy-policy"

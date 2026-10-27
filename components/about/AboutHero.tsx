@@ -104,7 +104,7 @@ export default function AboutHero({
             <Motion animationType="fadeUp">
               <div>
                 <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-medium">
-                  <Plane className="text-success mr-3 " /> About ObeoRooms
+                  <Plane className="text-success mr-3 " /> About FeleTrip
                 </span>
 
                 <h2 className="mt-6 text-3xl md:text-4xl xl:text-5xl font-bold leading-tight">
@@ -115,7 +115,7 @@ export default function AboutHero({
                 </h2>
 
                 <p className="mt-6 text-md lg:text-lg lg:leading-8 text-muted-foreground ">
-                  ObeoRooms helps travelers discover exceptional stays around
+                  FeleTrip helps travelers discover exceptional stays around
                   the world. From luxury resorts to cozy retreats, we provide a
                   seamless booking experience backed by transparent pricing and
                   trusted support.

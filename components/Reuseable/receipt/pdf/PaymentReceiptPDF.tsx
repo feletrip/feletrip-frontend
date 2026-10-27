@@ -19,10 +19,10 @@ export function PaymentReceiptPDF({ transaction }: PaymentReceiptPDFProps) {
 
     return (
         <Document
-            title={`ObeoRooms-Receipt-${transaction.transactionId}`}
-            author="ObeoRooms"
+            title={`FeleTrip-Receipt-${transaction.transactionId}`}
+            author="FeleTrip"
             subject="Payment Receipt"
-            creator="ObeoRooms"
+            creator="FeleTrip"
         >
             <Page size="A4" style={receiptStyles.page}>
                 <View style={receiptStyles.container}>
@@ -73,10 +73,10 @@ export function PaymentReceiptPDF({ transaction }: PaymentReceiptPDFProps) {
                     <View style={receiptStyles.footer}>
                         <View style={receiptStyles.footerRow}>
                             <View>
-                                <Text style={receiptStyles.company}>ObeoRooms</Text>
-                                <Text style={receiptStyles.support}>Thank you for choosing ObeoRooms.</Text>
+                                <Text style={receiptStyles.company}>FeleTrip</Text>
+                                <Text style={receiptStyles.support}>Thank you for choosing FeleTrip.</Text>
                             </View>
-                            <Text style={receiptStyles.support}>support@obeorooms.com</Text>
+                            <Text style={receiptStyles.support}>support@feletrip.com</Text>
                         </View>
                         <Text style={receiptStyles.disclaimer}>
                             This is an electronically generated receipt. No signature is required.

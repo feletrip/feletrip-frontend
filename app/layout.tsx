@@ -18,15 +18,15 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.ObeoRooms.com"),
+  metadataBase: new URL("https://www.FeleTrip.com"),
 
   title: {
-    default: "ObeoRooms - Find & Book Hotels at the Best Prices",
-    template: "%s | ObeoRooms",
+    default: "FeleTrip - Find & Book Hotels at the Best Prices",
+    template: "%s | FeleTrip",
   },
 
   description:
-    "ObeoRooms is a trusted hotel booking platform that connects travelers with hotels. Compare prices, explore destinations, and book comfortable stays with ease.",
+    "FeleTrip is a trusted hotel booking platform that connects travelers with hotels. Compare prices, explore destinations, and book comfortable stays with ease.",
 
   keywords: [
     "hotel booking",
@@ -38,17 +38,17 @@ export const metadata: Metadata = {
     "luxury hotels",
     "travel platform",
     "vacation booking",
-    "ObeoRooms",
+    "FeleTrip",
   ],
 
   authors: [
     {
-      name: "ObeoRooms",
+      name: "FeleTrip",
     },
   ],
 
-  creator: "ObeoRooms",
-  publisher: "ObeoRooms",
+  creator: "FeleTrip",
+  publisher: "FeleTrip",
 
   robots: {
     index: true,
@@ -69,26 +69,26 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.ObeoRooms.com",
-    siteName: "ObeoRooms",
-    title: "ObeoRooms - Find & Book Hotels at the Best Prices",
+    url: "https://www.FeleTrip.com",
+    siteName: "FeleTrip",
+    title: "FeleTrip - Find & Book Hotels at the Best Prices",
     description:
-      "Discover amazing hotels, compare prices, and book your perfect stay with ObeoRooms.",
+      "Discover amazing hotels, compare prices, and book your perfect stay with FeleTrip.",
     images: [
       {
         url: "https://i.ibb.co.com/mVX6bHzt/image.png",
         width: 1200,
         height: 630,
-        alt: "ObeoRooms Hotel Booking Platform",
+        alt: "FeleTrip Hotel Booking Platform",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "ObeoRooms - Find & Book Hotels at the Best Prices",
+    title: "FeleTrip - Find & Book Hotels at the Best Prices",
     description:
-      "Compare hotels, find great deals, and book your next stay with ObeoRooms.",
+      "Compare hotels, find great deals, and book your next stay with FeleTrip.",
     images: ["https://i.ibb.co.com/mVX6bHzt/image.png"],
   },
 

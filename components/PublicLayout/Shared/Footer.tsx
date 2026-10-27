@@ -12,12 +12,12 @@ import {
 import { MapPin } from "lucide-react";
 import { Container } from "./Container";
 import { Motion } from "@/components/Reuseable/common/Framermotion";
-import ObeoRoomsLogo from "@/components/shared/ObeoRoomLogo";
+import FeleTripLogo from "@/components/shared/FeleTripLogo";
 
 const SOCIAL_NETWORKS = [
-  { Icon: FaFacebookF, href: "https://facebook.com/ObeoRooms" },
-  { Icon: FaInstagram, href: "https://instagram.com/ObeoRooms" },
-  { Icon: FaLinkedinIn, href: "https://linkedin.com/company/ObeoRooms" },
+  { Icon: FaFacebookF, href: "https://facebook.com/FeleTrip" },
+  { Icon: FaInstagram, href: "https://instagram.com/FeleTrip" },
+  { Icon: FaLinkedinIn, href: "https://linkedin.com/company/FeleTrip" },
   { Icon: FaWhatsapp, href: "https://wa.me/your-number" },
 ];
 
@@ -59,7 +59,7 @@ export default function Footer() {
           <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-6">
               <Motion animationType="fadeLeft">
-                <ObeoRoomsLogo className="text-background" />
+                <FeleTripLogo className="text-background" />
               </Motion>
 
               <Motion
@@ -185,7 +185,7 @@ export default function Footer() {
           <div className="mt-8 border-t border-zinc-800 pt-6">
             <div className="flex flex-col items-center justify-between gap-4 text-sm md:flex-row">
               <p className="text-zinc-500">
-                © 2026 ObeoRooms.Com. All rights reserved.
+                © 2026 FeleTrip.com. All rights reserved.
               </p>
 
               <div className="flex gap-6">

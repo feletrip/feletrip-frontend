@@ -437,7 +437,7 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
                 <div className="flex items-center justify-center">
                   <Image
                     src="/logo.png"
-                    alt="ObeoRooms Logo"
+                    alt="FeleTrip Logo"
                     width={35}
                     height={35}
                     className="object-contain"
@@ -446,8 +446,8 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
 
                 {!isCollapsed && (
                   <span className="text-2xl font-bold tracking-tight">
-                    <span className="text-primary">Obeo</span>
-                    Rooms
+                    <span className="text-primary">Fele</span>
+                    Trip
                   </span>
                 )}
               </Link>

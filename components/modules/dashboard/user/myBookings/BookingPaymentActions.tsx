@@ -97,7 +97,7 @@ export function BookingPaymentActions({ booking }: BookingPaymentActionsProps) {
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = `ObeoRooms-Receipt-${formatBookingCode(booking.bookingCode)}.pdf`;
+      link.download = `FeleTrip-Receipt-${formatBookingCode(booking.bookingCode)}.pdf`;
       link.click();
       URL.revokeObjectURL(url);
 

@@ -68,8 +68,8 @@ export default function GoogleMap() {
           <ContactInfoCard
             title="Support"
             description="Our friendly team is here to help with any queries or assistance."
-            linkText="support@ObeoRooms.com"
-            linkHref="mailto:support@ObeoRooms.com"
+            linkText="support@FeleTrip.com"
+            linkHref="mailto:support@FeleTrip.com"
             animationPath="/contactAnimation/Customer Support.json"
             fallbackIcon={<Mail size={16} />}
           />
@@ -78,8 +78,8 @@ export default function GoogleMap() {
           <ContactInfoCard
             title="Sales"
             description="Questions or queries about booking packages? Get in touch!"
-            linkText="sales@ObeoRooms.com"
-            linkHref="mailto:sales@ObeoRooms.com"
+            linkText="sales@FeleTrip.com"
+            linkHref="mailto:sales@FeleTrip.com"
             animationPath="/contactAnimation/Location Icon.json"
             fallbackIcon={<MapPin size={16} />}
           />

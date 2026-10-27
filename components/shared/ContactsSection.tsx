@@ -160,10 +160,10 @@ export default function ContactSection() {
                     Chat to us
                   </h4>
                   <p className="text-xs text-neutral-700 dark:text-neutral-400 font-light">
-                    contact@ObeoRooms.com
+                    contact@FeleTrip.com
                   </p>
                   <p className="text-xs text-neutral-700 dark:text-neutral-400 font-light">
-                    reservations@ObeoRooms.com
+                    reservations@FeleTrip.com
                   </p>
                 </div>
               </div>
