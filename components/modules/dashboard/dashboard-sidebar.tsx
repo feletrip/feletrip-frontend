@@ -434,21 +434,33 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
                 href="/"
                 className="flex items-center gap-2 rounded-xl hover:bg-muted transition-all"
               >
-                <div className="flex items-center justify-center">
-                  <Image
-                    src="/logo.png"
-                    alt="FeleTrip Logo"
-                    width={35}
-                    height={35}
-                    className="object-contain"
-                  />
-                </div>
-
-                {!isCollapsed && (
-                  <span className="text-2xl font-bold tracking-tight">
-                    <span className="text-primary">Fele</span>
-                    Trip
-                  </span>
+                {!isCollapsed ? (
+                  <div className="py-1">
+                    <Image
+                      src="/logo.png"
+                      alt="FeleTrip Logo"
+                      width={140}
+                      height={36}
+                      className="h-8 w-auto object-contain dark:hidden"
+                    />
+                    <Image
+                      src="/logo-white.png"
+                      alt="FeleTrip Logo"
+                      width={140}
+                      height={36}
+                      className="h-8 w-auto object-contain hidden dark:block"
+                    />
+                  </div>
+                ) : (
+                  <div className="flex items-center justify-center">
+                    <Image
+                      src="/logo.png"
+                      alt="FeleTrip Logo"
+                      width={32}
+                      height={32}
+                      className="object-contain"
+                    />
+                  </div>
                 )}
               </Link>
             </SidebarMenuButton>

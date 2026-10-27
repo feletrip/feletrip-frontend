@@ -186,7 +186,7 @@ const HostSettingsPage = () => {
         title: "Success!",
         text: "All changes saved successfully",
         icon: "success",
-        confirmButtonColor: "#3dcfb6",
+        confirmButtonColor: "#06b1f7",
       });
 
       await getProfile();

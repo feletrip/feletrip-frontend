@@ -132,7 +132,7 @@ const AdminProfilePage = () => {
           title: "Succeeded!",
           text: "Admin profile updated successfully.",
           icon: "success",
-          confirmButtonColor: "#3dcfb6",
+          confirmButtonColor: "#06b1f7",
         });
       } else {
         await Swal.fire({

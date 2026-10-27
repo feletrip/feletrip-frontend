@@ -45,7 +45,7 @@ export default function TeamModal({ isOpen, onClose, member }: TeamModalProps) {
       >
         {/* Close Button */}
         <button
-          className="absolute top-6 right-6 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-[#3dcfb6] hover:bg-[#3dcfb6]/10 transition-all duration-300"
+          className="absolute top-6 right-6 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-primary hover:bg-primary/10 transition-all duration-300"
           onClick={onClose}
         >
           ✕
@@ -61,14 +61,14 @@ export default function TeamModal({ isOpen, onClose, member }: TeamModalProps) {
               fill
               className="object-cover object-top"
             />
-            <div className="absolute top-4 left-4 w-10 h-10 border-t-2 border-l-2 border-[#3dcfb6]" />
+            <div className="absolute top-4 left-4 w-10 h-10 border-t-2 border-l-2 border-primary" />
           </div>
 
           {/* Right Side: Info */}
           <div className="flex flex-col w-full md:w-1/2 p-10 md:p-14 justify-center bg-white dark:bg-neutral-900">
-            <div className="w-12 h-0.75 bg-[#3dcfb6] mb-5 rounded-full" />
+            <div className="w-12 h-0.75 bg-primary mb-5 rounded-full" />
 
-            <span className="text-xs uppercase tracking-[0.2em] text-[#3dcfb6] font-semibold mb-2">
+            <span className="text-xs uppercase tracking-[0.2em] text-primary font-semibold mb-2">
               Team Member
             </span>
 

@@ -27,6 +27,7 @@ const SERVICES = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
   { label: "Blogs", href: "/blogs" },
+  { label: "Leadership (Co-Owner)", href: "/owners/mohammed-rakib-gazi" },
 ];
 
 const FOOTER_BOTTOM_LINKS = [
@@ -59,7 +60,7 @@ export default function Footer() {
           <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-6">
               <Motion animationType="fadeLeft">
-                <FeleTripLogo className="text-background" />
+                <FeleTripLogo variant="dark" />
               </Motion>
 
               <Motion

@@ -277,8 +277,21 @@ const AuthButtons = ({
               >
                 <SheetHeader>
                   {/* logo */}
-                  <div className="relative w-20 h-20 aspect-square mx-auto mt-6">
-                    <Image src="/logo.png" alt="FeleTrip" fill priority />
+                  <div className="relative w-44 h-12 mx-auto mt-6">
+                    <Image
+                      src="/logo.png"
+                      alt="FeleTrip"
+                      fill
+                      className="object-contain dark:hidden"
+                      priority
+                    />
+                    <Image
+                      src="/logo-white.png"
+                      alt="FeleTrip"
+                      fill
+                      className="object-contain hidden dark:block"
+                      priority
+                    />
                   </div>
 
                   <SheetTitle asChild>
@@ -436,8 +449,21 @@ const AuthButtons = ({
                   >
                     <SheetHeader>
                       {/* logo */}
-                      <div className="relative w-20 h-20 aspect-square mx-auto mt-6">
-                        <Image src="/logo.png" alt="FeleTrip" fill priority />
+                      <div className="relative w-44 h-12 mx-auto mt-6">
+                        <Image
+                          src="/logo.png"
+                          alt="FeleTrip"
+                          fill
+                          className="object-contain dark:hidden"
+                          priority
+                        />
+                        <Image
+                          src="/logo-white.png"
+                          alt="FeleTrip"
+                          fill
+                          className="object-contain hidden dark:block"
+                          priority
+                        />
                       </div>
 
                       <SheetTitle asChild>

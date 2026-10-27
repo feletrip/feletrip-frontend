@@ -16,19 +16,23 @@ export function PaymentReceiptHeader({ title, description, transactionId }: Paym
             <div className="absolute -bottom-16 -right-16 h-40 w-40 rounded-full bg-primary/10 blur-3xl" />
             <div className="relative flex flex-col items-center">
                 {/* Brand Logo & Name */}
-                <div className="flex items-center gap-2.5 mb-5">
+                <div className="mb-5">
                     <Image
                         src="/logo.png"
                         alt="FeleTrip"
-                        width={40}
+                        width={160}
                         height={40}
-                        className="h-9 w-auto"
+                        className="h-10 w-auto object-contain dark:hidden"
                         priority
                     />
-                    <h1 className="text-2xl font-bold tracking-tight">
-                        <span className="text-primary">Fele</span>
-                        <span className="text-foreground">Trip</span>
-                    </h1>
+                    <Image
+                        src="/logo-white.png"
+                        alt="FeleTrip"
+                        width={160}
+                        height={40}
+                        className="h-10 w-auto object-contain hidden dark:block"
+                        priority
+                    />
                 </div>
 
                 {/* Success Icon */}

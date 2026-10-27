@@ -29,13 +29,13 @@ export const receiptStyles = StyleSheet.create({
         alignItems: "flex-start",
         paddingBottom: 12,
         borderBottomWidth: 2,
-        borderBottomColor: "#14b8a6",
+        borderBottomColor: "#06b1f7",
     },
 
     brand: {
         fontSize: 22,
         fontWeight: "bold",
-        color: "#14b8a6",
+        color: "#06b1f7",
     },
 
     brandWrapper: {
