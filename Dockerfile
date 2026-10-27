@@ -7,7 +7,8 @@ RUN corepack enable && corepack prepare pnpm@9.1.0 --activate
 FROM base AS deps
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml* ./
-RUN pnpm install --frozen-lockfile
+ENV NODE_ENV=development
+RUN pnpm install --frozen-lockfile --prod=false
 
 # Stage 3: Build the application
 FROM base AS builder
