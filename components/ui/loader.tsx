@@ -49,20 +49,30 @@ export default function loading() {
         <motion.div
           animate={{
             y: [0, -10, 0],
-            scale: [1, 1.03, 1],
+            scale: [1, 1.05, 1],
           }}
           transition={{
-            duration: 2.5,
+            duration: 2.2,
             repeat: Infinity,
             ease: "easeInOut",
           }}
+          className="relative w-20 h-20 mb-2"
         >
           <Image
-            src="/logo.png"
+            src="/icon.png"
             alt="FeleTrip"
-            width={80}
-            height={80}
+            fill
+            sizes="80px"
             priority
+            className="object-contain dark:hidden"
+          />
+          <Image
+            src="/icon-white.png"
+            alt="FeleTrip"
+            fill
+            sizes="80px"
+            priority
+            className="object-contain hidden dark:block"
           />
         </motion.div>
 
@@ -71,14 +81,14 @@ export default function loading() {
           variants={containerVariants}
           initial="initial"
           animate="animate"
-          className="flex items-center"
+          className="flex items-center tracking-tight"
         >
           {letters.map((letter, idx) => (
             <motion.span
               key={idx}
               variants={letterVariants}
-              className={`text-3xl font-bold tracking-tight ${
-                idx < 4 ? "text-primary" : "text-foreground"
+              className={`text-3xl font-extrabold ${
+                idx < 4 ? "text-[#002868] dark:text-white" : "text-primary"
               }`}
             >
               {letter}

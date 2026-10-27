@@ -52,19 +52,26 @@ const roomCards: RoomCard[] = [
 
 export default function DealsOffer(): JSX.Element {
   return (
-    <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 {`${ibmPlexSans.className} ${poppins.variable}`}">
+    <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="relative mx-auto mb-12 max-w-2xl text-center">
         <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/15 blur-3xl" />
         <Image
-          src="https://i.ibb.co.com/PvV4PY1g/Logo.png"
-          alt="Hotel Mania emblem"
+          src="/icon.png"
+          alt="FeleTrip emblem"
           width={130}
           height={130}
-          className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-28 w-28 -translate-x-1/2 -translate-y-1/2 object-contain opacity-10 blur-[1.5px]"
+          className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-28 w-28 -translate-x-1/2 -translate-y-1/2 object-contain opacity-10 blur-[1.5px] dark:hidden"
+        />
+        <Image
+          src="/icon-white.png"
+          alt="FeleTrip emblem"
+          width={130}
+          height={130}
+          className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-28 w-28 -translate-x-1/2 -translate-y-1/2 object-contain opacity-10 blur-[1.5px] hidden dark:block"
         />
         <p className="text-sm uppercase tracking-[0.25em] text-primary">Luxury Collection</p>
-        <h2 className="mt-3 font-serif text-3xl text-foreground sm:text-4xl font-poppins">Hotel Mania Rooms & Suites</h2>
-        <p className="mt-4 text-sm text-muted-foreground sm:text-base font-poppins">
+        <h2 className="mt-3 font-serif text-3xl text-foreground sm:text-4xl">FeleTrip Featured Deals & Offers</h2>
+        <p className="mt-4 text-sm text-muted-foreground sm:text-base">
           Experience cinematic interiors, curated comfort, and premium amenities inspired by five-star hospitality.
         </p>
       </div>

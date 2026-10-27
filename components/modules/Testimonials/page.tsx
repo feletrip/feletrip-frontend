@@ -54,11 +54,18 @@ const Testimonials = () => {
           <div className="mb-4 flex items-center justify-center gap-3">
             <div className="h-px w-12 bg-primary/45" />
             <Image
-              src="https://i.ibb.co.com/PvV4PY1g/Logo.png"
-              alt="Hotel Mania emblem"
+              src="/icon.png"
+              alt="FeleTrip emblem"
               width={34}
               height={34}
-              className="opacity-85"
+              className="opacity-90 object-contain dark:hidden"
+            />
+            <Image
+              src="/icon-white.png"
+              alt="FeleTrip emblem"
+              width={34}
+              height={34}
+              className="opacity-90 object-contain hidden dark:block"
             />
             <div className="h-px w-12 bg-primary/45" />
           </div>
@@ -66,7 +73,7 @@ const Testimonials = () => {
             Customer&apos;s Testimonial
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-secondary md:text-base italic">
-            “Hotel Mania exceeded all my expectations! The rooms were beautiful, the staff incredibly helpful, and the overall experience was simply perfect. I can’t wait to come back!”
+            &ldquo;FeleTrip exceeded all my expectations! The booking was seamless, the hotel was beautiful, and the overall experience was simply perfect. I can&apos;t wait to book again!&rdquo;
           </p>
         </motion.div>
 

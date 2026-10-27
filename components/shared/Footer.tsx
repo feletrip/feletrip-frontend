@@ -43,15 +43,22 @@ const Footer = () => {
             <CardContent className="space-y-6 p-6">
               <Link href="/" className="inline-flex items-center gap-3">
                 <Image
-                  src="https://i.ibb.co.com/PvV4PY1g/Logo.png"
-                  alt="Hotel Mania logo"
+                  src="/icon.png"
+                  alt="FeleTrip logo"
                   width={44}
                   height={44}
-                  className="rounded-full border border-border bg-muted p-1"
+                  className="rounded-xl border border-border bg-card p-1 object-contain dark:hidden"
+                />
+                <Image
+                  src="/icon-white.png"
+                  alt="FeleTrip logo"
+                  width={44}
+                  height={44}
+                  className="rounded-xl border border-border bg-card p-1 object-contain hidden dark:block"
                 />
                 <div>
-                  <p className="font-serif text-2xl text-foreground">Hotel Mania</p>
-                  <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Luxury Hospitality</p>
+                  <p className="font-serif text-2xl text-foreground font-bold tracking-tight">FeleTrip</p>
+                  <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Smart Hotel Booking</p>
                 </div>
               </Link>
 
