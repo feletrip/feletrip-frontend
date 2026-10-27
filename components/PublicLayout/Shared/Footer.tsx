@@ -40,11 +40,11 @@ const LOCATIONS = [
   {
     title: "Registered Office",
     address:
-      "1 Karwan Bazar, TCB Bhaban, Room No. 07, Ground Floor, Dhaka, Bangladesh",
+      "52, STD Nahar Garden, Janata Housing, Road 5A, Ring Road, Adabor, Dhaka-1207",
   },
   {
     title: "Corporate Office",
-    address: "House 514, Suite-A1, Road 07, Avenue-03, Mirpur DOHS, Dhaka-1216",
+    address: "15/12D, Block # F Hazi Chinu Mia Rd, Dhaka 1207",
   },
 ];
 

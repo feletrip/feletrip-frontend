@@ -35,6 +35,16 @@ export const metadata: Metadata = {
   description:
     "FeleTrip is a trusted hotel booking platform that connects travelers with hotels. Compare prices, explore destinations, and book comfortable stays with ease.",
 
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+
   keywords: [
     "hotel booking",
     "book hotels online",
