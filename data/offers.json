@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1,
+    "title": "Special Deal for GP Star",
+    "description": "Up to 10% discount on flight bookings & up to 65% discount on hotel bookings",
+    "promoCode": "GPSTAR0126",
+    "image": "https://storage.googleapis.com/gz-main-prod-main/media/discount_images/campaign_GPSTAR0126.jpg",
+    "highlight": true,
+    "partner": "Grameenphone",
+    "validity": "Valid till 31 Dec, 2025",
+    "howToAvail": [
+      {
+        "step": 1,
+        "title": "Search",
+        "details": ["Select preferred Flight/Hotel from the platform"]
+      },
+      {
+        "step": 2,
+        "title": "Select",
+        "details": [
+          "Log in to your profile",
+          "Provide traveler/guest details",
+          "Click ‘Confirm Booking’"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Book",
+        "details": [
+          "Provide GP Star number",
+          "Enter OTP received via SMS",
+          "Click “Submit” & avail the offer"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Payment",
+        "details": [
+          "Check discount details",
+          "Proceed to payment",
+          "Complete payment and get instant confirmation"
+        ]
+      }
+    ],
+    "termsAndConditions": [
+      "Only GP Star users can avail the offer",
+      "Up to 10% discount on flight booking",
+      "Up to 65% discount on hotel booking",
+      "Applicable only for card payment",
+      "Not applicable for internet banking and EMI"
+    ],
+    "faqs": [
+      {
+        "question": "What is the offer?",
+        "answer": "Discounts on flights and hotels for GP Star users."
+      },
+      {
+        "question": "How long is the offer valid?",
+        "answer": "Until 31 Dec, 2025."
+      },
+      {
+        "question": "Who is eligible?",
+        "answer": "Only GP Star customers with valid membership."
+      },
+      {
+        "question": "What is the refund policy?",
+        "answer": "Refunds follow the airline/hotel standard policy."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "MTB Hot Deals",
+    "description": "For MTB Visa & Master Credit Card cardholders. Up to 5,000 reward points per cardholder",
+    "promoCode": "MTBMRO226",
+    "image": "https://storage.googleapis.com/gz-main-prod-main/media/discount_images/campaign_MTB-hot-deals.jpg",
+    "highlight": false,
+    "partner": "MTB Bank",
+    "validity": "Valid till 30 Jun, 2026",
+    "howToAvail": [
+      {
+        "step": 1,
+        "title": "Search",
+        "details": ["Choose hotel offers from the platform"]
+      },
+      {
+        "step": 2,
+        "title": "Select",
+        "details": ["Log in with MTB cardholder profile"]
+      },
+      {
+        "step": 3,
+        "title": "Book",
+        "details": ["Enter card details", "Confirm booking"]
+      },
+      {
+        "step": 4,
+        "title": "Payment",
+        "details": ["Proceed with card payment", "Earn reward points instantly"]
+      }
+    ],
+    "termsAndConditions": [
+      "Applicable only for MTB Visa & Master Credit Card holders",
+      "Reward points capped at 5,000 per cardholder",
+      "Offer valid for hotel bookings only"
+    ],
+    "faqs": [
+      {
+        "question": "What is the offer?",
+        "answer": "Reward points on hotel bookings using MTB cards."
+      },
+      {
+        "question": "How long is the offer valid?",
+        "answer": "Until 30 Jun, 2026."
+      },
+      {
+        "question": "Who is eligible?",
+        "answer": "MTB Visa & Master Credit Card holders."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Instant Hotel Discount",
+    "description": "Up to 20% OFF on Hotel bookings, grab this great value deal on your next trip",
+    "promoCode": "HOTEL20",
+    "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1170&auto=format&fit=crop",
+    "highlight": false,
+    "partner": "Global Booking",
+    "validity": "Valid till 31 Dec, 2026",
+    "howToAvail": [
+      {
+        "step": 1,
+        "title": "Search",
+        "details": ["Browse hotels on the platform"]
+      },
+      {
+        "step": 2,
+        "title": "Select",
+        "details": ["Choose your preferred hotel", "Select room type"]
+      },
+      {
+        "step": 3,
+        "title": "Book",
+        "details": ["Enter promo code HOTEL20 at checkout"]
+      },
+      {
+        "step": 4,
+        "title": "Payment",
+        "details": ["Complete payment", "Receive instant discount confirmation"]
+      }
+    ],
+    "termsAndConditions": [
+      "Offer valid for selected hotels only",
+      "Discount capped at 20% per booking",
+      "Applicable for online payments only"
+    ],
+    "faqs": [
+      {
+        "question": "What is the offer?",
+        "answer": "20% discount on hotel bookings."
+      },
+      {
+        "question": "Who is eligible?",
+        "answer": "All registered users of the platform."
+      },
+      {
+        "question": "Can I use multiple promo codes?",
+        "answer": "No, only one promo code per booking."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "First Booking Savings",
+    "description": "Up to 35% OFF on Hotel Bookings on first booking from this platform",
+    "promoCode": "FIRST26",
+    "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1170&auto=format&fit=crop",
+    "highlight": false,
+    "partner": "TravelHub",
+    "validity": "Valid till 31 Dec, 2026",
+    "howToAvail": [
+      {
+        "step": 1,
+        "title": "Search",
+        "details": ["Select your first hotel booking"]
+      },
+      {
+        "step": 2,
+        "title": "Select",
+        "details": ["Log in or create a new account"]
+      },
+      {
+        "step": 3,
+        "title": "Book",
+        "details": ["Enter promo code FIRST26 at checkout"]
+      },
+      {
+        "step": 4,
+        "title": "Payment",
+        "details": ["Proceed with payment", "Avail discount instantly"]
+      }
+    ],
+    "termsAndConditions": [
+      "Offer valid only for first-time bookings",
+      "Discount capped at 35% per booking",
+      "Applicable for hotel bookings only"
+    ],
+    "faqs": [
+      {
+        "question": "What is the offer?",
+        "answer": "35% discount on first hotel booking."
+      },
+      {
+        "question": "Who is eligible?",
+        "answer": "New users making their first booking."
+      },
+      {
+        "question": "Is the discount reusable?",
+        "answer": "No, it applies only to the first booking."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Premium Flight Deal",
+    "description": "Flat 15% OFF on international flight bookings for premium members",
+    "promoCode": "PREMIUM15",
+    "image": "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?q=80&w=1170&auto=format&fit=crop",
+    "highlight": true,
+    "partner": "SkyJet Airlines",
+    "validity": "Valid till 31 Mar, 2027",
+    "howToAvail": [
+      {
+        "step": 1,
+        "title": "Search",
+        "details": ["Browse international flights on the platform"]
+      },
+      {
+        "step": 2,
+        "title": "Select",
+        "details": ["Choose your preferred flight"]
+      },
+      {
+        "step": 3,
+        "title": "Book",
+        "details": ["Enter promo code PREMIUM15 at checkout"]
+      },
+      {
+        "step": 4,
+        "title": "Payment",
+        "details": ["Complete payment", "Receive discount confirmation"]
+      }
+    ],
+    "termsAndConditions": [
+      "Offer valid for premium members only",
+      "Applicable for international flights",
+      "Discount capped at 15% per booking"
+    ],
+    "faqs": [
+      {
+        "question": "What is the offer?",
+        "answer": "15% discount on international flights."
+      },
+      {
+        "question": "Who is eligible?",
+        "answer": "Premium members of the platform."
+      },
+      {
+        "question": "Can I book for family?",
+        "answer": "Yes, premium members can book for companions."
+      }
+    ]
+  }
+]

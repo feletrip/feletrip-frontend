@@ -1,0 +1,111 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "slug": "sea-pearl-beach-resort",
+      "name": "Sea Pearl Beach Resort",
+      "propertyType": "Resort",
+      "description": "Luxury beachfront resort offering premium sea view rooms and world-class facilities. Luxury beachfront resort offering premium sea view rooms and world-class facilities. Luxury beachfront resort offering premium sea view rooms and world-class facilities. Luxury beachfront resort offering premium sea view rooms and world-class facilities.",
+      "location": "Cox's Bazar",
+      "address": "Inani Beach, Cox's Bazar, Bangladesh",
+      "coordinates": { "lat": 21.2787, "lng": 92.0153 },
+      "rating": 4.6,
+      "reviewsCount": 1245,
+      "pricePerNight": 8500,
+      "originalPrice": 10000,
+      "discountPrice": 8500,
+      "totalPrice": 17000,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "roomsLeft": 3,
+      "images": [
+        "https://i.ibb.co.com/8gmr4mQJ/1.webp",
+        "https://i.ibb.co.com/RkdT8HGh/2.jpg",
+        "https://i.ibb.co.com/gbLhmfKB/3.webp",
+        "https://i.ibb.co.com/21H6B6Ty/4.webp",
+        "https://i.ibb.co.com/PGLJVYRy/5.webp",
+        "https://i.ibb.co.com/HTxkKNXR/6.webp",
+        "https://i.ibb.co.com/Xq4PKXY/7.webp"
+      ],
+      "facilities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Private Beach",
+        "Spa",
+        "Restaurant",
+        "Gym"
+      ],
+      "rooms": [
+        {
+          "id": 101,
+          "hotelId": 1,
+          "name": "Deluxe Sea View Room",
+          "image": [
+            "https://i.ibb.co.com/8gmr4mQJ/1.webp",
+            "https://i.ibb.co.com/RkdT8HGh/2.jpg",
+            "https://i.ibb.co.com/gbLhmfKB/3.webp",
+            "https://i.ibb.co.com/21H6B6Ty/4.webp",
+            "https://i.ibb.co.com/PGLJVYRy/5.webp",
+            "https://i.ibb.co.com/HTxkKNXR/6.webp",
+            "https://i.ibb.co.com/Xq4PKXY/7.webp"
+          ],
+          "description": "Spacious room with private balcony and sea view.",
+          "maxGuests": 2,
+          "bedType": "1 King Bed",
+          "pricePerNight": 8500,
+          "availableRooms": 2,
+          "amenities": ["Wi-Fi", "Breakfast", "Air Conditioning"],
+          "refundable": true
+        },
+        {
+          "id": 102,
+          "hotelId": 1,
+          "name": "Family Suite",
+          "image": [
+            "https://i.ibb.co.com/8gmr4mQJ/1.webp",
+            "https://i.ibb.co.com/RkdT8HGh/2.jpg",
+            "https://i.ibb.co.com/gbLhmfKB/3.webp",
+            "https://i.ibb.co.com/21H6B6Ty/4.webp",
+            "https://i.ibb.co.com/PGLJVYRy/5.webp",
+            "https://i.ibb.co.com/HTxkKNXR/6.webp",
+            "https://i.ibb.co.com/Xq4PKXY/7.webp"
+          ],
+          "description": "Perfect for families with separate living area.",
+          "maxGuests": 4,
+          "bedType": "2 Queen Beds",
+          "pricePerNight": 12000,
+          "availableRooms": 1,
+          "amenities": [
+            "Wi-Fi",
+            "Breakfast",
+            "Air Conditioning",
+            "Living Area"
+          ],
+          "refundable": false
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "hotelId": 1,
+          "userName": "Rahim Ahmed",
+          "rating": 5,
+          "comment": "Amazing experience! The sea view was breathtaking.",
+          "date": "2026-02-10"
+        },
+        {
+          "id": 2,
+          "hotelId": 1,
+          "userName": "Sadia Khan",
+          "rating": 4,
+          "comment": "Very clean and comfortable stay.",
+          "date": "2026-02-18"
+        }
+      ],
+      "paymentMethods": ["Visa", "Mastercard", "Stripe"],
+      "specialOffers": ["10% off for Club Limitless members"],
+      "nearbyAttractions": ["Himchari National Park", "Laboni Beach"],
+      "mapUrl": "https://maps.google.com/?q=21.2787,92.0153"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "bookings": [
+    {
+      "booking_id": "BKG-20260330-001",
+      "property": {
+        "property_id": "PROP-101",
+        "name": "Grand Palace Hotel",
+        "location": "Dhaka, Bangladesh",
+        "type": "Hotel"
+      },
+      "guest": {
+        "guest_id": "GST-501",
+        "name": "Rahim Uddin",
+        "email": "rahim.uddin@example.com",
+        "phone": "+8801712345678"
+      },
+      "stay": {
+        "check_in": "2026-04-05",
+        "check_out": "2026-04-10",
+        "nights": 5,
+        "rooms": 2,
+        "guests": 4
+      },
+      "payment": {
+        "amount": 25000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Credit Card",
+        "transaction_id": "TXN-987654321"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-25T14:32:00",
+      "updated_at": "2026-03-28T09:15:00"
+    },
+    {
+      "booking_id": "BKG-20260330-002",
+      "property": {
+        "property_id": "PROP-202",
+        "name": "Sea Breeze Resort",
+        "location": "Cox’s Bazar, Bangladesh",
+        "type": "Resort"
+      },
+      "guest": {
+        "guest_id": "GST-502",
+        "name": "Anika Chowdhury",
+        "email": "anika.chowdhury@example.com",
+        "phone": "+8801812345678"
+      },
+      "stay": {
+        "check_in": "2026-04-12",
+        "check_out": "2026-04-15",
+        "nights": 3,
+        "rooms": 1,
+        "guests": 2
+      },
+      "payment": {
+        "amount": 12000,
+        "currency": "BDT",
+        "status": "Pending",
+        "method": "Mobile Banking",
+        "transaction_id": null
+      },
+      "status": "Pending Confirmation",
+      "created_at": "2026-03-27T11:20:00",
+      "updated_at": "2026-03-29T16:45:00"
+    },
+    {
+      "booking_id": "BKG-20260330-003",
+      "property": {
+        "property_id": "PROP-303",
+        "name": "Mountain View Lodge",
+        "location": "Bandarban, Bangladesh",
+        "type": "Lodge"
+      },
+      "guest": {
+        "guest_id": "GST-503",
+        "name": "Sajid Karim",
+        "email": "sajid.karim@example.com",
+        "phone": "+8801912345678"
+      },
+      "stay": {
+        "check_in": "2026-05-01",
+        "check_out": "2026-05-04",
+        "nights": 3,
+        "rooms": 1,
+        "guests": 2
+      },
+      "payment": {
+        "amount": 8000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Cash",
+        "transaction_id": "TXN-123456789"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-28T09:00:00",
+      "updated_at": "2026-03-30T10:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-004",
+      "property": {
+        "property_id": "PROP-404",
+        "name": "City Lights Hotel",
+        "location": "Chattogram, Bangladesh",
+        "type": "Hotel"
+      },
+      "guest": {
+        "guest_id": "GST-504",
+        "name": "Farhana Yasmin",
+        "email": "farhana.yasmin@example.com",
+        "phone": "+8801711111111"
+      },
+      "stay": {
+        "check_in": "2026-04-20",
+        "check_out": "2026-04-22",
+        "nights": 2,
+        "rooms": 1,
+        "guests": 1
+      },
+      "payment": {
+        "amount": 6000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Debit Card",
+        "transaction_id": "TXN-222333444"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-26T15:00:00",
+      "updated_at": "2026-03-29T12:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-005",
+      "property": {
+        "property_id": "PROP-505",
+        "name": "Luxury Stay Suites",
+        "location": "Sylhet, Bangladesh",
+        "type": "Apartment"
+      },
+      "guest": {
+        "guest_id": "GST-505",
+        "name": "Imran Hossain",
+        "email": "imran.hossain@example.com",
+        "phone": "+8801712349999"
+      },
+      "stay": {
+        "check_in": "2026-04-18",
+        "check_out": "2026-04-25",
+        "nights": 7,
+        "rooms": 2,
+        "guests": 3
+      },
+      "payment": {
+        "amount": 35000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Bank Transfer",
+        "transaction_id": "TXN-555666777"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-24T10:00:00",
+      "updated_at": "2026-03-28T18:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-006",
+      "property": {
+        "property_id": "PROP-606",
+        "name": "Sunset Villas",
+        "location": "Kuakata, Bangladesh",
+        "type": "Villa"
+      },
+      "guest": {
+        "guest_id": "GST-506",
+        "name": "Nusrat Jahan",
+        "email": "nusrat.jahan@example.com",
+        "phone": "+8801811112222"
+      },
+      "stay": {
+        "check_in": "2026-05-10",
+        "check_out": "2026-05-15",
+        "nights": 5,
+        "rooms": 1,
+        "guests": 2
+      },
+      "payment": {
+        "amount": 20000,
+        "currency": "BDT",
+        "status": "Pending",
+        "method": "Mobile Banking",
+        "transaction_id": null
+      },
+      "status": "Pending Confirmation",
+      "created_at": "2026-03-29T08:00:00",
+      "updated_at": "2026-03-30T11:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-007",
+      "property": {
+        "property_id": "PROP-707",
+        "name": "Heritage Inn",
+        "location": "Rajshahi, Bangladesh",
+        "type": "Inn"
+      },
+      "guest": {
+        "guest_id": "GST-507",
+        "name": "Tanvir Alam",
+        "email": "tanvir.alam@example.com",
+        "phone": "+8801712223333"
+      },
+      "stay": {
+        "check_in": "2026-04-08",
+        "check_out": "2026-04-12",
+        "nights": 4,
+        "rooms": 1,
+        "guests": 2
+      },
+      "payment": {
+        "amount": 10000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Credit Card",
+        "transaction_id": "TXN-888999000"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-23T09:00:00",
+      "updated_at": "2026-03-27T14:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-008",
+      "property": {
+        "property_id": "PROP-808",
+        "name": "Riverfront Hotel",
+        "location": "Khulna, Bangladesh",
+        "type": "Hotel"
+      },
+      "guest": {
+        "guest_id": "GST-508",
+        "name": "Shamima Akter",
+        "email": "shamima.akter@example.com",
+        "phone": "+8801714445555"
+      },
+      "stay": {
+        "check_in": "2026-04-15",
+        "check_out": "2026-04-18",
+        "nights": 3,
+        "rooms": 1,
+        "guests": 2
+      },
+      "payment": {
+        "amount": 9000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Credit Card",
+        "transaction_id": "TXN-333444555"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-25T13:00:00",
+      "updated_at": "2026-03-29T17:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-009",
+      "property": {
+        "property_id": "PROP-909",
+        "name": "Green Valley Resort",
+        "location": "Mymensingh, Bangladesh",
+        "type": "Resort"
+      },
+      "guest": {
+        "guest_id": "GST-509",
+        "name": "Arif Mahmud",
+        "email": "arif.mahmud@example.com",
+        "phone": "+8801715556666"
+      },
+      "stay": {
+        "check_in": "2026-04-25",
+        "check_out": "2026-04-28",
+        "nights": 3,
+        "rooms": 2,
+        "guests": 5
+      },
+      "payment": {
+        "amount": 18000,
+        "currency": "BDT",
+        "status": "Pending",
+        "method": "Mobile Banking",
+        "transaction_id": null
+      },
+      "status": "Pending Confirmation",
+      "created_at": "2026-03-26T10:00:00",
+      "updated_at": "2026-03-30T15:00:00"
+    },
+    {
+      "booking_id": "BKG-20260330-010",
+      "property": {
+        "property_id": "PROP-1010",
+        "name": "Royal Heritage Hotel",
+        "location": "Barisal, Bangladesh",
+        "type": "Hotel"
+      },
+      "guest": {
+        "guest_id": "GST-510",
+        "name": "Mehnaz Rahman",
+        "email": "mehnaz.rahman@example.com",
+        "phone": "+8801717778888"
+      },
+      "stay": {
+        "check_in": "2026-05-02",
+        "check_out": "2026-05-06",
+        "nights": 4,
+        "rooms": 1,
+        "guests": 2
+      },
+      "payment": {
+        "amount": 14000,
+        "currency": "BDT",
+        "status": "Paid",
+        "method": "Debit Card",
+        "transaction_id": "TXN-444555666"
+      },
+      "status": "Confirmed",
+      "created_at": "2026-03-27T09:00:00",
+      "updated_at": "2026-03-30T12:00:00"
+    }
+  ]
+}
