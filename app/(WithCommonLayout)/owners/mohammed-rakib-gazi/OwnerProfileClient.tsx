@@ -36,6 +36,12 @@ export default function OwnerProfileClient() {
     phone: "+8801735238409",
     phoneFormatted: "+880 1735-238409",
     location: "Dhaka, Bangladesh",
+    address: {
+      line1: "HASHIMPUR,KACHUA",
+      city: "CHANDPUR",
+      postalCode: "3630",
+      country: "Bangladesh",
+    },
     linkedin: "https://www.linkedin.com/in/mohammed-rakib-gazi",
     image: "/owners/mohammed-rakib-gazi.png",
   };
@@ -267,6 +273,59 @@ export default function OwnerProfileClient() {
                       <Copy className="w-4 h-4" />
                     )}
                   </button>
+                </div>
+
+                {/* Address Action */}
+                <div className="p-3 rounded-2xl bg-muted/50 border border-border/60 hover:border-primary/40 transition-colors">
+                  <div className="flex items-start justify-between gap-2">
+                    <div className="flex items-start gap-3 w-full overflow-hidden">
+                      <div className="w-9 h-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                        <MapPin className="w-4 h-4" />
+                      </div>
+                      <div className="flex-1 text-left min-w-0">
+                        <div className="flex items-center justify-between gap-2">
+                          <p className="text-[11px] uppercase tracking-wider text-muted-foreground font-semibold">
+                            Address
+                          </p>
+                          <button
+                            onClick={() =>
+                              copyToClipboard(
+                                `${profileData.address.line1}, ${profileData.address.city} - ${profileData.address.postalCode}, ${profileData.address.country}`,
+                                "address"
+                              )
+                            }
+                            className="p-1.5 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors shrink-0"
+                            title="Copy Address"
+                            aria-label="Copy Address"
+                          >
+                            {copiedField === "address" ? (
+                              <Check className="w-4 h-4 text-emerald-500" />
+                            ) : (
+                              <Copy className="w-4 h-4" />
+                            )}
+                          </button>
+                        </div>
+                        <div className="mt-2 space-y-1.5 text-xs">
+                          <div className="flex items-baseline justify-between gap-2 border-b border-border/40 pb-1">
+                            <span className="text-muted-foreground">Address line 1</span>
+                            <span className="font-medium text-foreground text-right">{profileData.address.line1}</span>
+                          </div>
+                          <div className="flex items-baseline justify-between gap-2 border-b border-border/40 pb-1">
+                            <span className="text-muted-foreground">City/Town</span>
+                            <span className="font-medium text-foreground text-right">{profileData.address.city}</span>
+                          </div>
+                          <div className="flex items-baseline justify-between gap-2 border-b border-border/40 pb-1">
+                            <span className="text-muted-foreground">Postal/ZIP code</span>
+                            <span className="font-medium text-foreground text-right">{profileData.address.postalCode}</span>
+                          </div>
+                          <div className="flex items-baseline justify-between gap-2 pt-0.5">
+                            <span className="text-muted-foreground">Country</span>
+                            <span className="font-medium text-foreground text-right">{profileData.address.country}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 {/* LinkedIn Action */}
