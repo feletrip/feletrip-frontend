@@ -21,6 +21,7 @@ import {
   Compass,
   Users2,
   TrendingUp,
+  Briefcase,
 } from "lucide-react";
 
 export default function OwnerProfileClient() {
@@ -31,6 +32,7 @@ export default function OwnerProfileClient() {
     title: "Co-Owner",
     organization: "FeleTrip",
     email: "gazicourses@gmail.com",
+    officialEmail: "rakib@feletrip.com",
     phone: "+8801735238409",
     phoneFormatted: "+880 1735-238409",
     location: "Dhaka, Bangladesh",
@@ -203,6 +205,38 @@ export default function OwnerProfileClient() {
                   </button>
                 </div>
 
+                {/* Official Mail Action */}
+                <div className="flex items-center justify-between gap-2 p-3 rounded-2xl bg-muted/50 border border-border/60 hover:border-primary/40 transition-colors">
+                  <div className="flex items-center gap-3 overflow-hidden">
+                    <div className="w-9 h-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                      <Briefcase className="w-4 h-4" />
+                    </div>
+                    <div className="truncate text-left">
+                      <p className="text-[11px] uppercase tracking-wider text-muted-foreground font-semibold">
+                        Official Mail
+                      </p>
+                      <a
+                        href={`mailto:${profileData.officialEmail}`}
+                        className="text-xs sm:text-sm font-medium text-foreground hover:text-primary transition-colors truncate block"
+                      >
+                        {profileData.officialEmail}
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => copyToClipboard(profileData.officialEmail, "officialEmail")}
+                    className="p-2 rounded-xl text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors shrink-0"
+                    title="Copy Official Mail"
+                    aria-label="Copy Official Mail"
+                  >
+                    {copiedField === "officialEmail" ? (
+                      <Check className="w-4 h-4 text-emerald-500" />
+                    ) : (
+                      <Copy className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
+
                 {/* Phone Action */}
                 <div className="flex items-center justify-between gap-2 p-3 rounded-2xl bg-muted/50 border border-border/60 hover:border-primary/40 transition-colors">
                   <div className="flex items-center gap-3 overflow-hidden">
@@ -271,7 +305,7 @@ export default function OwnerProfileClient() {
               {/* Primary Call-to-Action Buttons */}
               <div className="grid grid-cols-2 gap-3 mt-6">
                 <a
-                  href={`mailto:${profileData.email}`}
+                  href={`mailto:${profileData.officialEmail}`}
                   className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-primary text-white font-medium text-sm shadow-lg shadow-primary/25 hover:bg-primary/90 transition-all active:scale-[0.98]"
                 >
                   <Mail className="w-4 h-4" />
@@ -423,7 +457,7 @@ export default function OwnerProfileClient() {
 
               <div className="flex items-center gap-3 shrink-0">
                 <a
-                  href={`mailto:${profileData.email}?subject=Inquiry%20for%20Mohammed%20Rakib%20Gazi%20-%20FeleTrip`}
+                  href={`mailto:${profileData.officialEmail}?subject=Inquiry%20for%20Mohammed%20Rakib%20Gazi%20-%20FeleTrip`}
                   className="px-5 py-3 rounded-xl bg-primary text-white font-semibold text-sm hover:bg-primary/90 transition-all shadow-md shadow-primary/20 active:scale-95"
                 >
                   Get in Touch
