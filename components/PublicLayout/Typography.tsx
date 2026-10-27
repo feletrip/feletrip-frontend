@@ -1,13 +1,7 @@
 "use client";
 
-import { Playfair_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
 
 interface SectionTitleProps {
   title: string;
@@ -52,7 +46,7 @@ export const Heading = ({
   children: React.ReactNode;
   className: string;
 }) => (
-  <h1 className={`${playfair.className} font-semibold ${className}`}>
+  <h1 className={cn("font-serif font-semibold", className)}>
     {children}
   </h1>
 );
@@ -64,7 +58,7 @@ export const SubHeading = ({
   children: React.ReactNode;
   className: string;
 }) => (
-  <h2 className={`${playfair.className} font-semibold ${className}`}>
+  <h2 className={cn("font-serif font-semibold", className)}>
     {children}
   </h2>
 );
@@ -109,7 +103,7 @@ export default function SectionTitle({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
           className={cn(
-            `${playfair.className} text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-tight text-foreground`,
+            "font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-tight text-foreground",
             subtitleClassName,
           )}
         >

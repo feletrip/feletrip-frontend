@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans } from "next/font/google";
+import { IBM_Plex_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Providers from "@/providers/Providers";
 import GlobalBackground from "@/components/PublicLayout/Shared/GlobalBackground";
@@ -14,6 +14,13 @@ const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-ibm-plex-sans",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-playfair",
   display: "swap",
 });
 
@@ -121,7 +128,7 @@ export default async function RootLayout({
           }}
         />
       </head>
-      <body className={ibmPlexSans.className}>
+      <body className={`${ibmPlexSans.className} ${playfair.variable}`}>
         <GlobalBackground />
 
         {/* <SmoothScrollProvider> */}

@@ -11,16 +11,8 @@ import { BookingInfoForm } from "@/components/modules/Booking/BookingInfoFrom";
 import { CouponSection } from "@/components/modules/Booking/Coupon";
 import { PaymentDetailsSection } from "@/components/modules/Booking/PaymentDetails";
 import { BookingOrderDetails } from "@/components/modules/Booking/BookingOrderDetails";
-import { IBM_Plex_Sans } from "next/font/google";
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 import { api } from "@/lib/api";
-
-const ibmPlexSans = IBM_Plex_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-ibm-plex-sans",
-  display: "swap",
-});
 
 const fadeUpVariants = {
   hidden: {
@@ -98,7 +90,7 @@ const BookingPage = () => {
   // if (!hotel) return "Loading";
 
   return (
-    <section className={`${ibmPlexSans.className}`}>
+    <section>
       <motion.div
         className="lg:col-span-2 space-y-8"
         variants={staggerContainer}

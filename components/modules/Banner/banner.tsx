@@ -16,17 +16,10 @@ import { Label } from "@/components/ui/label";
 import { format } from "date-fns"
 
 import { VideoModal } from "./modal";
-import { Poppins } from "next/font/google";
 import React from "react";
 
 
 const highlightedWords = ["Elegant", "World Class", "Unforgettable"];
-
-const poppins = Poppins(
-  {
-    weight: ["100", "300", "400", "500", "600", "800"]
-  }
-);
 
 
 type BookingFieldProps = {
@@ -178,7 +171,7 @@ export default function Banner() {
                       <motion.span 
                         key={i} 
                         variants={childVariants} 
-                        className={`${poppins.className} block text-primary-foreground dark:text-amber-900`}
+                        className="block text-primary-foreground dark:text-amber-900"
                       >
                         {/* {line} */}
                         
