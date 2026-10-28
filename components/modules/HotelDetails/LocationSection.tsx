@@ -1,52 +1,63 @@
 "use client";
-import React from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import L from "leaflet"
 
-const customIcon = new L.Icon({
-  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
-  iconRetinaUrl:
-    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
-  shadowUrl:
-    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+import React, { useState } from "react";
+import { APIProvider, Map, Marker, InfoWindow } from "@vis.gl/react-google-maps";
 
-  iconSize: [25, 41],     
-  iconAnchor: [12, 41],   
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-})
 interface Props {
   coordinates: { lat: number; lng: number };
   location: string;
   name: string;
 }
+
+const GOOGLE_MAPS_API_KEY =
+  process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
+
 export default function LocationSection({
   location,
   coordinates,
   name,
 }: Props) {
-  const position: [number, number] = [coordinates.lat, coordinates.lng];
+  const [openInfo, setOpenInfo] = useState(true);
+  const position = {
+    lat: Number(coordinates.lat) || 23.8103,
+    lng: Number(coordinates.lng) || 90.4125,
+  };
+
   return (
     <div>
       <h2 className="text-xl font-bold mb-4">Location</h2>
 
       <div className="h-70 border-2 border-background shadow-lg overflow-hidden rounded-2xl bg-muted flex items-center justify-center">
-        <MapContainer
-          center={position}
-          zoom={10}
-          scrollWheelZoom={true}
-          className="h-full w-full"
-        >
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <Marker icon={customIcon} position={position}>
-            <Popup>
-              {name} <br /> {location}
-            </Popup>
-          </Marker>
-        </MapContainer>
+        {GOOGLE_MAPS_API_KEY ? (
+          <APIProvider apiKey={GOOGLE_MAPS_API_KEY}>
+            <Map
+              defaultCenter={position}
+              defaultZoom={14}
+              gestureHandling={"cooperative"}
+              disableDefaultUI={false}
+              className="h-full w-full"
+            >
+              <Marker position={position} onClick={() => setOpenInfo(true)} />
+              {openInfo && (
+                <InfoWindow
+                  position={position}
+                  onCloseClick={() => setOpenInfo(false)}
+                >
+                  <div className="p-1 text-xs text-black">
+                    <strong className="block font-semibold text-sm mb-0.5">
+                      {name}
+                    </strong>
+                    <p className="text-gray-600">{location}</p>
+                  </div>
+                </InfoWindow>
+              )}
+            </Map>
+          </APIProvider>
+        ) : (
+          <div className="text-sm text-muted-foreground">
+            Google Maps API Key missing
+          </div>
+        )}
       </div>
     </div>
   );
