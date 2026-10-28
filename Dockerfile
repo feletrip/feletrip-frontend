@@ -8,7 +8,7 @@ FROM base AS deps
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml* ./
 ENV NODE_ENV=development
-RUN pnpm install --frozen-lockfile --prod=false
+RUN pnpm install --no-frozen-lockfile --prod=false
 
 # Stage 3: Build the application
 FROM base AS builder

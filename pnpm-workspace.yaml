@@ -2,3 +2,5 @@ packages:
   - '.'
 allowBuilds:
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@types/google.maps@3.66.8'
