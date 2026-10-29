@@ -29,7 +29,7 @@ const PropertyLocationPickerMap = dynamic(
           <span>Loading Interactive Map...</span>
         </div>
         <p className="text-xs text-muted-foreground/70">
-          Powered by Google Maps
+          Powered by OpenStreetMap & Geoapify
         </p>
       </div>
     ),

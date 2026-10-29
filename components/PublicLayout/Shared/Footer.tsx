@@ -27,6 +27,7 @@ const SERVICES = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
   { label: "Blogs", href: "/blogs" },
+  { label: "Leadership (Co-Owner)", href: "/owners/mohammed-rakib-gazi" },
 ];
 
 const FOOTER_BOTTOM_LINKS = [
