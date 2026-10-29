@@ -35,7 +35,6 @@ export default function OwnerProfileClient() {
     officialEmail: "rakib@feletrip.com",
     phone: "+8801735238409",
     phoneFormatted: "+880 1735-238409",
-    location: "Dhaka, Bangladesh",
     address: {
       line1: "HASHIMPUR,KACHUA",
       city: "CHANDPUR",
@@ -58,7 +57,7 @@ export default function OwnerProfileClient() {
         title: `${profileData.name} - ${profileData.title} at ${profileData.organization}`,
         text: `Official profile of ${profileData.name}, ${profileData.title} at FeleTrip.`,
         url: window.location.href,
-      }).catch(() => {});
+      }).catch(() => { });
     } else {
       copyToClipboard(window.location.href, "url");
     }
@@ -171,10 +170,6 @@ export default function OwnerProfileClient() {
                   <span className="text-muted-foreground">•</span>
                   <span>{profileData.organization}</span>
                 </div>
-                <p className="text-xs sm:text-sm text-muted-foreground flex items-center justify-center gap-1.5 pt-1">
-                  <MapPin className="w-4 h-4 text-primary shrink-0" />
-                  {profileData.location}
-                </p>
               </div>
 
               {/* Direct Quick Actions */}
